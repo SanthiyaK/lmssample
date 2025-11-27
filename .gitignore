@@ -1,0 +1,88 @@
+# =============================
+# Node.js dependencies
+# =============================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =============================
+# Environment files
+# =============================
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# Backend environment
+backend/.env
+backend/*.env
+
+# Frontend environment
+frontend/.env
+frontend/*.env
+
+# =============================
+# Logs
+# =============================
+logs/
+*.log
+*.log.*
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# =============================
+# Build output
+# =============================
+dist/
+build/
+frontend/build/
+backend/build/
+
+# React cache
+.cache/
+coverage/
+
+# =============================
+# OS/System Files
+# =============================
+.DS_Store
+Thumbs.db
+
+# =============================
+# IDE / Editor Files
+# =============================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# =============================
+# Temporary Files
+# =============================
+*.tmp
+*.temp
+*.swp
+
+# =============================
+# Next.js (if used for frontend)
+# =============================
+.next/
+out/
+
+# =============================
+# TypeScript
+# =============================
+*.tsbuildinfo
+
+# =============================
+# Optional: ignore uploads
+# =============================
+uploads/
